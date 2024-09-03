@@ -1,0 +1,17 @@
+import java.util.*;
+class Pen{
+String colour;
+public void printcolour(){
+System.out.println(this.colour);
+}
+}
+public class OOPs{
+	public static void main(String[]args){
+Pen pen1=new Pen();
+pen1.colour = "blue";
+Pen pen2=new Pen();
+pen2.colour = "black";
+pen1.printcolour();
+pen2.printcolour();
+}
+}
