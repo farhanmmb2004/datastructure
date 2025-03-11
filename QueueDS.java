@@ -51,7 +51,7 @@ public class QueueDS{
          Queue s=new Queue();
             s.add(1);
             s.add(2);
-            s.add(3);
+            s.add(6);
             while(!s.isempty()){
             System.out.println(s.peek());
                     s.pop();
